@@ -140,6 +140,7 @@ aside > p{
     text-align: center;
     background-image: linear-gradient(to right, #92C4B8, #52E3E2, #CEE4DF);
     color: white;
+    width: 800px;
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
