@@ -1,18 +1,17 @@
 @charset 'UTF-8';
 
-.cabecalho{
-    display: flex;
-    justify-content: center;
-    background-color: #fffcf5;
-    margin: 0px;
-    width: 100%;
-    /*#fffcf5*/
-    
-}
-
 *{
     margin: 0px;
     padding: 0px;
+}
+
+.cabecalho{
+    padding-top: 40px;
+    text-align: center;
+    background-color: #fffcf5;
+    min-height: 150%;
+    /*#fffcf5*/
+    
 }
 
 nav {
@@ -41,6 +40,7 @@ nav > a:hover {
 body{
     background-color: #fffcf5;
     background-image: linear-gradient(to right, #92c4b894, #cee4dfa1);
+    
     
 }
 
@@ -78,6 +78,10 @@ main h2{
 
 main img.maeefilho{
     display: block;
+    text-align: center;
+    margin-right: auto;
+    min-width: 100px;
+    max-width: 500px;
     margin: auto;
     padding: 20px;
     background-image: linear-gradient(to right, #92C4B8, #52E3E2, #CEE4DF);
@@ -108,8 +112,17 @@ aside > p{
     text-indent: 20px;
 }
 
-.louge1{
+.louge {
+    display: block;
     text-align: center;
+    margin-right: auto;
+    min-width: 100px;
+    max-width: 500px;
+    padding: 20px;
+    background-image: linear-gradient(to right, #92C4B8, #52E3E2, #CEE4DF);
+}
+
+.louge1{
     background-image: linear-gradient(to right, #92C4B8, #52E3E2, #CEE4DF);
     color: white;
     padding: 5px;
@@ -127,6 +140,7 @@ aside > p{
     text-align: center;
     background-image: linear-gradient(to right, #92C4B8, #52E3E2, #CEE4DF);
     color: white;
+    width: 500px;
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
