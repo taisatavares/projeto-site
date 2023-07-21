@@ -78,10 +78,10 @@ main h2{
 
 main img.maeefilho{
     display: block;
-    text-align: center;
     margin-right: auto;
-    min-width: 100px;
-    max-width: 500px;
+    height: 50px;
+    max-height: 150px;
+    max-width: 200px;
     margin: auto;
     padding: 20px;
     background-image: linear-gradient(to right, #92C4B8, #52E3E2, #CEE4DF);
@@ -116,8 +116,8 @@ aside > p{
     display: block;
     text-align: center;
     margin-right: auto;
-    min-width: 100px;
-    max-width: 500px;
+    min-width: 150px;
+    max-width: 150px;
     padding: 20px;
     background-image: linear-gradient(to right, #92C4B8, #52E3E2, #CEE4DF);
 }
@@ -140,7 +140,7 @@ aside > p{
     text-align: center;
     background-image: linear-gradient(to right, #92C4B8, #52E3E2, #CEE4DF);
     color: white;
-    width: 500px;
+    width: 100px;
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
