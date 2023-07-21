@@ -78,11 +78,11 @@ main h2{
 
 main img.maeefilho{
     display: block;
-    margin-right: auto;
-    height: 50px;
-    max-height: 150px;
-    max-width: 200px;
+    text-align: center;
     margin: auto;
+    margin-right: auto;
+    min-width: 300px;
+    max-width: 300px;
     padding: 20px;
     background-image: linear-gradient(to right, #92C4B8, #52E3E2, #CEE4DF);
     
@@ -116,8 +116,8 @@ aside > p{
     display: block;
     text-align: center;
     margin-right: auto;
-    min-width: 150px;
-    max-width: 150px;
+    min-width: 300px;
+    max-width: 300px;
     padding: 20px;
     background-image: linear-gradient(to right, #92C4B8, #52E3E2, #CEE4DF);
 }
