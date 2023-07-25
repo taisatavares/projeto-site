@@ -167,8 +167,6 @@ aside > ul {
     padding: 20px;
     margin: 15px 0px;
     text-align: justify;
-    font-size: 1em;
-    line-height: 2em;
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     columns: 2;
@@ -186,12 +184,12 @@ ul#img02 {
     margin-top: 30px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
-    background-position: left bottom;
+    background-position: right bottom;
     background-size: cover;
     text-align: center;
     display: block;
     margin-right: auto;
-    padding: 20px;
+    padding: 10px;
     padding-top: 10vh;
     padding-bottom: 10vh;
 
@@ -199,11 +197,11 @@ ul#img02 {
 }
 
 p#img03{
-    background-image: url('../projeto-site/imagens/pisc400.jpeg');
+    background-image: url('../projeto-site/imagens/papo260.jpeg');
     margin-bottom: 30px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
-    background-position: left bottom;
+    background-position: right center;
     background-size: cover;
     text-align: center;
     display: block;
@@ -236,8 +234,8 @@ picture > p{
     display: block;
     text-align: center;
     margin-right: auto;
-    min-width: 300px;
-    max-width: 300px;
+    min-width: 400px;
+    max-width: 400px;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
