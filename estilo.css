@@ -95,15 +95,26 @@ main img.maeefilho{
     min-width: 300px;
     max-width: 300px;
     padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
     background-image: linear-gradient(to right, #92C4B8, #52E3E2, #CEE4DF);
     
 }
 
 section#img01{
     background-image: url('../projeto-site/imagens/percussao400.jpeg');
+    margin-bottom: 30px;
+    margin-top: 30px;
     border-radius: 10px;
-    background-position: right center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
+    background-position: top center;
     background-size: cover;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    padding: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 
     
     
@@ -113,9 +124,9 @@ section#img01{
 
 section > p{
     
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
@@ -151,57 +162,72 @@ section a{
 
 aside > ul {
     
-    
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     padding: 20px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);
+    margin: 15px 0px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
     list-style-type: '\2714\00A0\00A0';
     list-style-position: inside;
     columns: 2;
     font-family: var(--fonte3);
     font-weight: bolder;
     background-color: rgba(180, 197, 188, 0.205);
+
     
 }
 
 ul#img02 {
     
-    background-image: url('../projeto-site/imagens/picole300.jpeg');
+    background-image: url('../projeto-site/imagens/louge300.jpeg');
+    margin-bottom: 30px;
+    margin-top: 30px;
     border-radius: 10px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);
-    background-position: top left;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
+    background-position: left bottom;
     background-size: cover;
-    display: inline-block;
     text-align: center;
-    
+    display: block;
+    margin-right: auto;
+    padding: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
     
 }
 
 p#img03{
     background-image: url('../projeto-site/imagens/pisc400.jpeg');
+    margin-bottom: 30px;
     border-radius: 10px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);
-    background-position: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
+    background-position: left bottom;
     background-size: cover;
-    display: inline-block;
     text-align: center;
+    display: block;
+    margin-right: auto;
+    padding: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
 
 }
 
 picture > p{
-    background-color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.397);
     margin: 15px 0px;
     text-align: justify;
     text-indent: 30px;
     font-size: 1em;
     line-height: 2em;
-    text-indent: 20px;
+    text-indent: 30px;
     font-weight: bolder;
     font-family: var(--fonte3);
+
 }
 
 
@@ -213,6 +239,8 @@ picture > p{
     min-width: 300px;
     max-width: 300px;
     padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
     background-image: linear-gradient(to right, #92C4B8, #52E3E2, #CEE4DF);
 }
 
@@ -253,6 +281,13 @@ main img.louge{
     display: block;
     margin: auto;
     padding: 20px;
+}
+
+body > p > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    font-family: var(--fonte3);
 }
 
 
