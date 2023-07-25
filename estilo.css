@@ -135,7 +135,8 @@ section > p{
     line-height: 2em;
     text-indent: 20px;
     font-weight: bolder;
-    background-color: rgba(180, 197, 188, 0.205);
+    background-color: #ece9a177;
+    /*background-color: rgba(180, 197, 188, 0.205);*/
     /*rgba(111, 136, 122, 0.205)*/
     
 }
@@ -179,12 +180,12 @@ aside > ul {
 
 ul#img02 {
     
-    background-image: url('../projeto-site/imagens/louge300.jpeg');
+    background-image: url('../projeto-site/imagens/louge400.jpeg');
     margin-bottom: 30px;
     margin-top: 30px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
-    background-position: right bottom;
+    background-position: right center;
     background-size: cover;
     text-align: center;
     display: block;
@@ -196,8 +197,33 @@ ul#img02 {
     
 }
 
-p#img03{
-    background-image: url('../projeto-site/imagens/papo260.jpeg');
+aside> ul > .lista1{
+    background-color: #ece9a177;
+    margin: 3px;
+}
+aside> ul > .lista2{
+    background-color: #ece9a179;
+    margin: 3px;
+}
+aside> ul > .lista3{
+    background-color: #ece9a17a;
+    margin: 3px;
+}
+aside> ul > .lista4{
+    background-color: #ece9a177;
+    margin: 3px;
+}
+aside> ul > .lista5{
+    background-color: #ece9a17e;
+    margin: 3px;
+}
+aside> ul > .lista6{
+    background-color: #ece9a18a;
+    margin: 3px;
+}
+
+picture#img03{
+    background-image: url('../projeto-site/imagens/papo400.jpeg');
     margin-bottom: 30px;
     border-radius: 10px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
@@ -209,11 +235,14 @@ p#img03{
     padding: 20px;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    
 
 
 }
 
 picture > p{
+    
+    background-color: #ece9a181;
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding: 20px;
@@ -234,8 +263,8 @@ picture > p{
     display: block;
     text-align: center;
     margin-right: auto;
-    min-width: 400px;
-    max-width: 400px;
+    min-width: 300px;
+    max-width: 300px;
     padding: 20px;
     border-radius: 20px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.205);
