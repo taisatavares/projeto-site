@@ -39,6 +39,7 @@ nav > a {
     text-decoration: none;
     transition-duration: .5s;
     color: #11abca;
+    font-size: 25px;
 
 }
 
@@ -288,17 +289,17 @@ picture > p{
 .louge2{
     text-align: center;
     background-image: linear-gradient(to right, #92C4B8, #52E3E2, #CEE4DF);
-    color: white;
     display: block;
     min-width: 300px;
     max-width: 300px;
-    padding: 10px;
-    margin: -10px -10px 0px -10px;
-    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.247);
     font-family: Arial, Verdana, Helvetica, sans-serif;
     font-weight: normal;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.24);
+    
 
     
 
@@ -315,6 +316,8 @@ body > p > a{
     color: black;
     font-weight: bolder;
     font-family: var(--fonte3);
+    margin: 10px;
+    padding: 10px;
 }
 
 
